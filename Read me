@@ -1,3 +1,5 @@
+Python 3 environment is required to be setup with the following dependencies 
+
 Requirements [Libraries]:- 
 
 pandas==1.0.1
@@ -6,27 +8,18 @@ matplotlib
 scikit-learn
 seaborn
 selenium (along with selenium’s driver for firefox browser) 
-
-
-The .py file should be be placed in a working folder and executed in python 3 environment. 
-The program is expected to run for a few hours with variation based on Internet speed and CPU speed. 
-Strong Internet connection is mandatory for a successful run. 
-The Final Output in the end is top 30 drug leads identified with PubChem CIDs.
-
-The dependency packages for running the automated virtual screening part of the Code involves the following
-
-
 openbabel 2.4.1 
 mgltools  1.5.4
 autodock-vina 1.1.2-4
 
-Since autodock-vina can only be programmatically accessed in a Linux environment, this requires this part of the code be run in 
-a Linux OS
+The .py file should be be placed in a working folder and executed in python 3 environment. The other files required 
+to be kept in the working folder are coordinatesandsetups1A1V.txt, 1A1V.pdbqt, 1A1V.pdb. These files can be downloaded 
+from this GitHub repository 
+The program is expected to run for a few hours with variation based on Internet speed and CPU speed. 
+Strong Internet connection is mandatory for a successful run. 
+The final Output in that the program prints out Top 50 drug leads identified with PubChem CIDs and performs automated 
+In Silico modelling using the autodock-vina package and stores the results in the working folder of the user. 
 
-While compiling the program from the files to be kept in the working directory are the following 
 
-coordinatesandsetups1A1V.txt
-1A1V.pdbqt
-1A1V.pdb
 
-They can be doownloaded from this GitHub Repository
+
